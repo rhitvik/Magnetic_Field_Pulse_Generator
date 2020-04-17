@@ -5,6 +5,7 @@ This project entails the development of the power system of a novel medical devi
 <div align="center"> 
 
 ![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/PSX_20200417_051646.jpg)
+
 *Prototype Power System of a Magnetic Preterm Uterine Inhibitor*
 <div align="left"> 
 
