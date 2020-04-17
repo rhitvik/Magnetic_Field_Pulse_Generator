@@ -67,6 +67,9 @@ RINT (internal resistance, 5 kΩ) in kΩ (see the figure below).
 ## Schematic and PCB Layout
 [Click Here](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/tree/master/Schematic%26PCB_layout)
 
+## Gerber Files
+[Click Here](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/tree/master/GerberFiles)
+
 ## Firmware Codes
 **Note: Disable JTAG Fuse-Bit before uploading code as the default JTAG pins are used as GPIOs to drive the LCD**
 
