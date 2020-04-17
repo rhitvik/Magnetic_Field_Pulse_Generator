@@ -7,6 +7,7 @@ In order to achieve this effect, a high frequency switcing power-supply is requi
 <div align="center"> 
 
 ![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/Buck_converter.png) ![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/Buck_converter_states.png)
+
 *Buck Converter Circuit and it's states during switching*
 <div align="left"> 
 
@@ -16,7 +17,12 @@ The A6211 operates in fixed on-time mode during switching. The on-time (and henc
 *fSW = 1 / [ k × (RON + RINT)]*
 
 where k = 0.0139, with fSW in MHz, tON in μs, and RON and
-RINT (internal resistance, 5 kΩ) in kΩ (see Figure 20).
+RINT (internal resistance, 5 kΩ) in kΩ (see the figure below).
+<div align="center"> 
+
+![Circuit Equations and Waveforms](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/CircuitEquations_and_Waveforms.png)
+*Circuit Equations and Waveforms (Image taken from A6211 Datasheet)*
+<div align="left"> 
 
 ## Schematic and PCB Layout
 [Click Here](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/tree/master/Schematic%26PCB_layout)
