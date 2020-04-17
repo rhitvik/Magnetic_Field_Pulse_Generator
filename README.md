@@ -115,3 +115,14 @@ And the following waveforms were obtained without and with the presence of the f
 *Waveform obtained after adding the filter capacitor*
 
 <div align="left"> 
+
+## Pictures
+<div align="center">
+
+![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/PSX_20190614_193208.jpg)
+
+<div align="left"> 
+
+## References
+
+Allegro, Linear Technologies, Microchip
