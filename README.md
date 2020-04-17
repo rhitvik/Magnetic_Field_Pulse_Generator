@@ -2,6 +2,11 @@
 
 ## About the project
 This project entails the development of the power system of a novel medical device to inhibit preterm uterine contractions using a magnetic field pulse. Premature birth and attendant complications are the main cause of neonatal death and mortality and a major cause of maternal complications from preterm labor. It is among the greatest health problems in the world. Inhibiting preterm uterine contractions and eventually preterm birth is still an unsolved major problem for medicine and society with costs more than 25 billion dollars per year in the United States alone. 
+<div align="center"> 
+
+![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/PSX_20200417_051646.jpg)
+*Prototype Power System of a Magnetic Preterm Uterine Inhibitor*
+<div align="left"> 
 
 To achieve this effect, a high-frequency switching power supply is required to provide pulsed current at low voltage (around 3.1 Volts) and high current (3 Amps). So, out of some very brilliant contenders, I ended up moving forward with Allegro A6211 IC.
 <div align="center"> 
@@ -22,6 +27,15 @@ RINT (internal resistance, 5 kΩ) in kΩ (see the figure below).
 
 ![Circuit Equations and Waveforms](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/CircuitEquations_and_Waveforms.png)
 *Circuit Equations and Waveforms (Image taken from A6211 Datasheet)*
+<div align="left"> 
+
+## Circuit
+<div align="center"> 
+
+![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/Schematic_Capture.PNG)
+*Schematic capture of the designed circuit*
+
+![A6211 Driver Circuit](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/A6211%20rhitvik%20schematic.PNG)
 <div align="left"> 
 
 ## Schematic and PCB Layout
