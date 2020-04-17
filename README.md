@@ -9,6 +9,23 @@ This project entails the development of the power system of a novel medical devi
 <div align="left"> 
 
 To achieve this effect, a high-frequency switching power supply is required to provide pulsed current at low voltage (around 3.1 Volts) and high current (3 Amps). So, out of some very brilliant contenders, I ended up moving forward with Allegro A6211 IC.
+
+The A6211 is a single IC switching regulator that provides constant-current output to drive high-power LEDs. It integrates a high-side N-channel DMOS switch for DC-to-DC step- down (buck) conversion. A true average current is output using a cycle-by-cycle, controlled on-time method.
+
+*Supply voltage 6 to 48 V
+v True average output current control
+* 3 A maximum output over operating temperature range
+* Cycle-by-cycle current limit
+* Integrated MOSFET switch
+* Dimming via direct logic input or power supply voltage
+* Internal control loop compensation
+* Undervoltage lockout (UVLO) and thermal shutdown protection
+* Low power shutdown (1 μA typical)
+* Robust protection against:
+	Adjacent pin-to-pin short
+	Pin-to-GND short
+	Component open/short faults
+
 <div align="center"> 
 
 ![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/Buck_converter.png) ![](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/Buck_converter_states.png)
@@ -36,6 +53,9 @@ RINT (internal resistance, 5 kΩ) in kΩ (see the figure below).
 *Schematic capture of the designed circuit*
 
 ![A6211 Driver Circuit](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/A6211%20rhitvik%20schematic.PNG)
+
+![PCB Layout](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/A6211%20rhitvik%20PCB%20layout.PNG)
+*PCB Layout of the circuit*
 <div align="left"> 
 
 ## Schematic and PCB Layout
@@ -64,7 +84,7 @@ The LT8613 is a compact, high efficiency, and high speed synchronous monolithic 
 
 **Evaluation Board** [Click Here](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Consideraton_Report_for_IC_LT8613/Datasheet/dc2011afa.pdf)
 
-**Simulation Report** [Click Here]https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/tree/master/Consideraton_Report_for_IC_LT8613)
+**Simulation Report** [Click Here](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/tree/master/Consideraton_Report_for_IC_LT8613)
 
 ## Results Obtained
 
