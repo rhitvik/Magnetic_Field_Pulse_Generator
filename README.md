@@ -9,11 +9,16 @@ This project entails the development of the power system of a novel medical devi
 <div align="left"> 
 
 To achieve this effect, a high-frequency switching power supply is required to provide pulsed current at low voltage (around 3.1 Volts) and high current (3 Amps). So, out of some very brilliant contenders, I ended up moving forward with Allegro A6211 IC.
+<div align="center"> 
+
+![A6211 Application Circuit](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/blob/master/Images_and_Screenshots/A6211_applicationCircuit.PNG)
+*A6211 Typical Application Circuit*
+<div align="left"> 
 
 The A6211 is a single IC switching regulator that provides constant-current output to drive high-power LEDs. It integrates a high-side N-channel DMOS switch for DC-to-DC step- down (buck) conversion. A true average current is output using a cycle-by-cycle, controlled on-time method.
-
-*Supply voltage 6 to 48 V
-v True average output current control
+ 
+* Supply voltage 6 to 48 V
+* True average output current control
 * 3 A maximum output over operating temperature range
 * Cycle-by-cycle current limit
 * Integrated MOSFET switch
@@ -22,9 +27,9 @@ v True average output current control
 * Undervoltage lockout (UVLO) and thermal shutdown protection
 * Low power shutdown (1 μA typical)
 * Robust protection against:
-	Adjacent pin-to-pin short
-	Pin-to-GND short
-	Component open/short faults
+	--Adjacent pin-to-pin short
+	--Pin-to-GND short
+	--Component open/short faults
 
 <div align="center"> 
 
