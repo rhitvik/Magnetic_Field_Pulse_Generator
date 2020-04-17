@@ -16,11 +16,11 @@ To achieve this effect, a high-frequency switching power supply is required to p
 *A6211 Typical Application Circuit*
 <div align="left"> 
 
-The A6211 is a single IC switching regulator that provides constant-current output to drive high-power LEDs. It integrates a high-side N-channel DMOS switch for DC-to-DC step- down (buck) conversion. A true average current is output using a cycle-by-cycle, controlled on-time method.
+The A6211 is a single IC switching regulator that provides constant-current output to drive high-power LEDs. It integrates a high-side N-channel DMOS switch for DC-to-DC step- down (buck) conversion. A true average current is an output using a cycle-by-cycle, controlled on-time method.
  
 * Supply voltage 6 to 48 V
 * True average output current control
-* 3 A maximum output over operating temperature range
+* 3 A maximum output over the operating temperature range
 * Cycle-by-cycle current limit
 * Integrated MOSFET switch
 * Dimming via direct logic input or power supply voltage
@@ -28,9 +28,9 @@ The A6211 is a single IC switching regulator that provides constant-current outp
 * Undervoltage lockout (UVLO) and thermal shutdown protection
 * Low power shutdown (1 μA typical)
 * Robust protection against:
-	--Adjacent pin-to-pin short
-	--Pin-to-GND short
-	--Component open/short faults
+    --Adjacent pin-to-pin short
+    --Pin-to-GND short
+    --Component open/short faults
 
 <div align="center"> 
 
@@ -64,7 +64,7 @@ RINT (internal resistance, 5 kΩ) in kΩ (see the figure below).
 *PCB Layout of the circuit*
 <div align="left"> 
 
-## Schematic and PCB Layout
+## Schematic Capture and PCB Layout
 [Click Here](https://github.com/rhitvik/Magnetic_Field_Pulse_Generator/tree/master/Schematic%26PCB_layout)
 
 ## Gerber Files
